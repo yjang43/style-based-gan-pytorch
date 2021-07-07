@@ -1,3 +1,25 @@
+# How to Represent _w_ of a Real Data in StyleGAN
+This is a project forked from a pytorch implementation of StyleGAN.
+
+For the approach as to optimize _w_, I refered to another project by [jacobhallberg](https://github.com/jacobhallberg/pytorch_stylegan_encoder).
+His project explains well on the concept of optimizing _w_ via gradient descent, along with limitation of naive approach with MSE and VGG as a remedy boost the quality of _w_.
+
+The flow of my experiment is first try with MSE, then VGG, and finally mixing MSE and VGG.
+The code is under notebook named __"optimize_w"__.
+
+### Result with MSE Loss
+![mse](encoder_progress_1.png)
+
+### Result with VGG Loss
+![vgg](encoder_progress_2.png)
+
+### Result with VGG + MSE Loss
+![vgg](encoder_progress_3.png)
+
+___
+### Below is the README of project I __forked__ from
+Original work is by _rosinality_ and the repository can be found here (https://github.com/rosinality/style-based-gan-pytorch) 
+
 # Style-Based GAN in PyTorch
 
 ##### Update (2019/09/01)
