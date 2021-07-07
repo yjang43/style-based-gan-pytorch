@@ -16,6 +16,12 @@ The code is under notebook named __"optimize_w"__.
 ### Result with VGG + MSE Loss
 ![vgg](encoder_progress_3.png)
 
+
+_Note book may not load then..._
+```
+https://nbviewer.jupyter.org/github/yjang43/style-based-gan-pytorch/blob/master/optimize_w.ipynb
+```
+
 ___
 ### Below is the README of project I __forked__ from
 Original work is by _rosinality_ and the repository can be found here (https://github.com/rosinality/style-based-gan-pytorch) 
